@@ -3,9 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start:dev": "webpack-dev-server --content-base public",
+    "serve": "live-server public/",
+    "build": "webpack --watch"
+  },
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^5.7.0"
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.7.0",
+    "live-server": "^1.2.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
   }
 }
