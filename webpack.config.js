@@ -13,6 +13,10 @@ module.exports = {
             exclude : /node_modules/
         }]
     },
-    mode : 'production'
+    mode : 'production',
+    devtool : 'cheap-modul-eval-source-map',
+    devServer : {
+        contentBase : path.join(__dirname, 'public')
+    }
 };
 
