@@ -1,3 +1,3 @@
-# Indecision App - From React Course
+# Expensify App - From React Course
 
 ## Belajar terus bray
